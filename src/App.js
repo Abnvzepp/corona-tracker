@@ -12,7 +12,6 @@ const App = () => {
   useEffect(async () => {
      const data = await fetchData();
      setData(data);
-     console.log(data);
   }, [])
 
   return (
